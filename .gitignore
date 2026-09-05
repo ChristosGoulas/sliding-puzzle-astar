@@ -1,0 +1,24 @@
+# Build artifacts
+a_star_search
+a_star_search-debug
+a-star
+*.o
+*.d
+*.dSYM/
+*.a
+*.so
+*.exe
+*.plist
+
+# Test output
+*.out
+tests/*.actual
+tests/bin/
+compile_commands.json
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
